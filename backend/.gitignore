@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask instance folder
+instance/
+
+# Environment variables file
+.env
+
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE folders
+.vscode/
+.idea/
+
+# Mac OS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Database files (if you are using SQLite locally)
+*.sqlite3
+*.db
+
+# Coverage and test reports
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Deployment specific
+*.egg-info/
+dist/
+build/
+
+# Ignore migrations if generated automatically
+migrations/
